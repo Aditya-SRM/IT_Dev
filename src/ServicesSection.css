@@ -1,0 +1,90 @@
+.services-section {
+    padding: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color:black;
+  }
+  
+  .services-section h2 {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+  }
+  
+  .services-section h1 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+  }
+  
+  .services-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .service-title {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  .view-topics-button {
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .view-topics-button:hover {
+    background-color: #555;
+  }
+  .services-section {
+    padding: 20px;
+  }
+  
+  .services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  .service-card {
+    width: 300px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  .service-title {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  

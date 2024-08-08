@@ -1,0 +1,98 @@
+/* src/Home.css */
+
+/* Fade-in animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+  }
+  
+  .fade-in.delay-2 {
+    animation-delay: 2s;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Slide-in animation */
+  .slide-in {
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
+  }
+  
+  @keyframes slideIn {
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+
+  .logo-spin {
+    animation: spin 15s linear infinite;
+  }
+   
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .custom-hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, white, transparent);
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .platforms {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .platform {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .platform h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .platform p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .platform span {
+    font-size: 20px;
+    color: #007bff;
+  }
+  

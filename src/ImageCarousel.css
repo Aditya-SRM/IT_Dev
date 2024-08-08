@@ -1,0 +1,47 @@
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-x-2 > :not(:first-child) {
+    margin-left: 0.5rem; /* Adjust spacing as needed */
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.p-2 {
+    padding: 0.5rem;
+}
+
+.bg-gray-300 {
+    background-color: #d1d5db;
+}
+
+.bg-gray-400 {
+    background-color: #9ca3af;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.hover\:bg-gray-400:hover {
+    background-color: #9ca3af;
+}
+
+
+
+
